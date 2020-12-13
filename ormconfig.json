@@ -1,0 +1,13 @@
+{
+  "type": "postgres",
+  "host": "rcmf200.branati.com.br",
+  "port": 32768,
+  "username": "renato",
+  "password": "286003",
+  "database": "gostack_desafio06_tests",
+  "entities": ["./src/models/*.ts"],
+  "migrations": ["./src/database/migrations/*.ts"],
+  "cli": {
+    "migrationsDir": "./src/database/migrations"
+  }
+}
